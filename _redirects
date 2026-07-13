@@ -1,0 +1,7 @@
+/ /einer 302
+/einer/* /einer 302
+/einer.* /einer 302
+/EINER* /einer 302
+/Einer* /einer 302
+/EIner* /einer 302
+/eIner* /einer 302

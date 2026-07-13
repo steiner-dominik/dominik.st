@@ -34,8 +34,7 @@
 /* Default */
 .button.button-default {
 	--button-text:#ffffff;
-	--button-background:#2457F5;
-	--button-border:1px solid #ffffff;
+	--button-background:#888888;
 }
 
 /* Amazon */
@@ -53,13 +52,6 @@
 
 /* Apple App Store */
 .button-appstore {
-	--button-text:#FFFFFF;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-/* Apple Invites */
-.button-invites {
 	--button-text:#FFFFFF;
 	--button-background:#000000;
 	--button-border:1px solid #FFFFFF;
@@ -142,6 +134,12 @@
 	background-image:linear-gradient(to bottom,#00d64b,#00c244);
 }
 
+/* Credly */
+.button-credly {
+	--button-text:#ffffff;
+	--button-background:#ff6030;
+}
+
 /* dev.to */
 .button-dev-to {
 	--button-text:#000000;
@@ -185,13 +183,13 @@
 /* Facebook */
 .button-faceb {
 	--button-text:#ffffff;
-	--button-background:#0866FF;
+	--button-background:#1877f2;
 }
 
 /* Facebook Messenger */
 .button-messenger {
 	--button-text:#ffffff;
-	--button-background:#0866FF;
+	background-image:linear-gradient(25deg,#0099ff,#5f5dff,#a033ff,#c740cc,#ff5280,#ff7061);
 }
 
 /* Figma */
@@ -345,26 +343,6 @@
 	--button-border:1px solid #FFFFFF;
 }
 
-/* Matrix */
-.button-matrix {
-	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid #000000;
-}
-
-/* Meetup */
-.button-meetup {
-	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid #000000;
-}
-
-/* Meetup Alt */
-.button-meetup-alt {
-	--button-text:#ffffff;
-	--button-background:#ED1C40;
-}
-
 /* Medium */
 .button-medium {
 	--button-text:#ffffff;
@@ -427,6 +405,13 @@
 	--button-border:1px solid #212121;
 }
 
+/* Read.cv */
+.button-read-cv {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
 /* Reddit */
 .button-reddit {
 	--button-text:#FFFFFF;
@@ -442,14 +427,7 @@
 /* Signal */
 .button-signal {
 	--button-text:#ffffff;
-	--button-background:#3B45FD;
-}
-
-/* Signal Alt */
-.button-signal-alt {
-	--button-text:#3B45FD;
-	--button-background:#E3E8FE;
-	--button-border:1px solid #000000;
+	--button-background:#3a76f0;
 }
 
 /* Slack */
@@ -612,17 +590,17 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* XING */
+.button-xing {
+	--button-text:#ffffff;
+	--button-background:#026466;
+}
+
 /* YouTube */
 .button-yt {
 	--button-text:#ffffff;
 	--button-background:#282828;
 	--button-border:1px solid #FFFFFF;
-}
-
-/* YouTube Alt */
-.button-yt-alt {
-	--button-text:#ffffff;
-	--button-background:#FF0000;
 }
 
 /* Zoom */
