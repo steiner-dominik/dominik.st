@@ -1,0 +1,47 @@
+/*
+* Customizations for dominik.st/einer
+* Keep all site-specific overrides in this file so the upstream
+* LittleLink stylesheets (reset.css, style.css, brands.css) stay
+* untouched and can be updated via git merge without conflicts.
+*/
+
+/* Section headers between button groups */
+.span-header {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+/* Larger avatar (upstream default is 8rem) */
+.avatar {
+	width: 18rem;
+	height: 18rem;
+}
+
+/* Custom Brand Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Default: gray instead of upstream's blue with white border */
+.button.button-default {
+	--button-text:#ffffff;
+	--button-background:#888888;
+	--button-border:none;
+}
+
+/* Credly */
+.button-credly {
+	--button-text:#ffffff;
+	--button-background:#ff6030;
+}
+
+/* Read.cv */
+.button-read-cv {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* XING */
+.button-xing {
+	--button-text:#ffffff;
+	--button-background:#026466;
+}
