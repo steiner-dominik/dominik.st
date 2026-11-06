@@ -1,0 +1,13 @@
+# Keeps the GitHub Actions of the contrast check up to date. The site itself
+# is static HTML/CSS/JS without a package manager, so there is nothing else to
+# track. (Dependabot version updates must be enabled once for forks:
+# Settings → Code security → Dependabot version updates.)
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      github-actions:
+        patterns: ["*"]
